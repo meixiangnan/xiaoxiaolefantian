@@ -1,0 +1,29 @@
+# 编辑器/IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.useross
+*.sln.docstates
+
+# 编译/运行
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+build/
+output/
+
+# 日志/缓存
+*.log
+*.tmp
+*.cache
+.DS_Store
+node_modules/
+
+# 自己加的目录（示例）
+Library/
+Temp/
+Logs/
