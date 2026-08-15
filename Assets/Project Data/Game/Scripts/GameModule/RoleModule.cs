@@ -520,6 +520,14 @@ public class RoleModule : GameModuleBase
             isNotifyTimeOver = true;
             isNotifyLeft = true;
             GameController.isGamePause = true;
+            UIController.HidePage<UIShop>();
+            UIController.HidePage<UIHeroBook>();
+            UIController.HidePage<UIStory>();
+            UIController.HidePage<UISDKLogin>();
+            UIController.HidePage<UIMainMenu>();
+            UIController.HidePage<UIGame>();
+            UIController.HidePage<UIGameOver>();
+            UIController.HidePage<UIComplete>();
             NotifyDialog.NotifyClose(DialogState.QuitGame, "防沉迷提示", "        您已被强制下线。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》与《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，您可在周五、周六、周日和法定节假日的20:00-21:00登入游戏。");
             return;
         }

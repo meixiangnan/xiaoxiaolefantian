@@ -20,7 +20,7 @@ namespace Watermelon
             if (c != null)
             {
                 c.renderMode = RenderMode.ScreenSpaceOverlay;
-                c.sortingOrder = 998;
+                c.sortingOrder = 32767;
             }
 
             UnityEngine.UI.CanvasScaler scaler = canvasGameObject.GetComponent<UnityEngine.UI.CanvasScaler>();

@@ -130,11 +130,13 @@ namespace Watermelon
             onClose = null;
             LevelController.UnloadLevel();
             GameController.OnLevelCancel();
+            UIController.HidePage<UIShop>();
+            UIController.HidePage<UIHeroBook>();
+            UIController.HidePage<UIStory>();
             UIController.HidePage<UIMainMenu>();
             UIController.HidePage<UIGame>();
             UIController.HidePage<UIGameOver>();
             UIController.HidePage<UIComplete>();
-            
             
             UIController.ShowPage<UISDKLogin>(new ShowUISDKLoginParam(){ InitState = UILoginState.Login});
             

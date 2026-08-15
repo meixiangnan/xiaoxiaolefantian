@@ -208,7 +208,6 @@ namespace Watermelon
                     if (bgColor_login != null) bgColor_login.SetActive(true);
                     break;
                 case UILoginState.ChangeName:
-                    GetModule<RoleModule>().Logout();
                     this.CreateRoleRoot.gameObject.SetActive(true);
                     var role = this.GetModule<RoleModule>();
                     this.CreateRoleRoot.Show(role.userData.HeadIcon, role.userData.Nickname);
@@ -216,7 +215,6 @@ namespace Watermelon
                     if (policy != null) policy.SetActive(false);
                     break;
                 case UILoginState.CreateRole:
-                    GetModule<RoleModule>().Logout();
                     this.CreateRoleRoot.gameObject.SetActive(true);
                     this.CreateRoleRoot.Show("", "");
                     this.CreateRoleRoot.OnOver = CreateRoleServer;

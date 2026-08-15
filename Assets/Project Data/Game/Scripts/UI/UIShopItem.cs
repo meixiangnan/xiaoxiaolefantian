@@ -23,7 +23,7 @@ namespace Watermelon
             var diamondModule = GameGlobal.Instance.GetModule<DiamondModule>();
             if (!diamondModule.SpendDiamond(costDiamond))
             {
-                FloatingMessage.ShowMessage("钻石不足。");
+                FloatingMessage.ShowMessage("爪币不足。");
                 return;
             }
 

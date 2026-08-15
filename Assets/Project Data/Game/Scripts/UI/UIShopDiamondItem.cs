@@ -20,7 +20,7 @@ namespace Watermelon
 
         private void OnBuyClick()
         {
-            NotifyDialog.NotifyClose(DialogState.NoticeConfirmOnly, "提示", $"是否消费{priceYuan}元购买{diamondAmount}钻石？", HandleConfirmedPurchase, TextAlignmentOptions.Center);
+            NotifyDialog.NotifyClose(DialogState.NoticeConfirmOnly, "提示", $"是否消费{priceYuan}元购买{diamondAmount}爪币？", HandleConfirmedPurchase, TextAlignmentOptions.Center);
         }
 
         private void HandleConfirmedPurchase()
@@ -89,7 +89,7 @@ namespace Watermelon
         {
             var diamondModule = GameGlobal.Instance.GetModule<DiamondModule>();
             diamondModule.AddDiamond(diamondAmount);
-            FloatingMessage.ShowMessage($"+{diamondAmount} 钻石。");
+            FloatingMessage.ShowMessage($"+{diamondAmount} 爪币。");
             onPurchaseSuccess?.Invoke();
         }
     }
