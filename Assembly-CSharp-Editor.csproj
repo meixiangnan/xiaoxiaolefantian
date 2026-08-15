@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8fd3eed0-1f09-0064-e037-e32425145b23}</ProjectGuid>
+    <ProjectGuid>{f39b35dc-3038-0772-f088-9ce80ec3a261}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -582,61 +582,61 @@
       <HintPath>D:\tool\unity\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.IOSResolver.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.IOSResolver.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\log4netPlastic.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\unityplastic.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.PackageManagerResolver.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.PackageManagerResolver.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.VersionHandlerImpl.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.JarResolver.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.google.external-dependency-manager@3267d36d8cd9\ExternalDependencyManager\Editor\1.2.186\Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\PackageCache\com.unity.analytics@c9d14a6bdec6\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\tool\unity\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1020,191 +1020,191 @@
       <HintPath>D:\tool\unity\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI.Analytics">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Components">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Services.Core.Components.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Services.Core.Components.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Analytics.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Stores">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.004">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.004.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.004.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Settings.Editor">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Analytics">
-      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client\Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
+      <HintPath>D:\Project\Unity\xiaoxiaolefantian_client_git\Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{333b424b-f620-51a9-c130-b7357a3130a8}</Project>
+      <Project>{b7bd529e-d780-36ba-86e5-471c90608703}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{d111cea7-9679-2f28-5f1a-26e102ec2200}</Project>
+      <Project>{70dc005b-4129-d3f3-e868-f14f63a0faa1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{cf542eb6-27f9-f245-f6ff-215209be340d}</Project>
+      <Project>{0d364095-3756-2396-7741-ad0159027b73}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1534.4
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1429
+  controlID: 48
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -245,14 +245,14 @@ MonoBehaviour:
     y: 0
     width: 634.4
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -668,24 +668,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -67946
-      - m_Data: -67732
-      - m_Data: -61800
-      - m_Data: -61762
-      - m_Data: -39850
-      - m_Data: -30290
-      - m_Data: -30082
-      - m_Data: -24154
-      - m_Data: -24120
-      - m_Data: -1334
-      - m_Data: 76626
-      - m_Data: 76670
-      - m_Data: 76878
-      - m_Data: 77466
-      - m_Data: 78044
-      - m_Data: 79114
-      - m_Data: 79166
-      - m_Data: 80720
+      - m_Data: -1330
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -813,7 +796,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Project Data/Game/Images_new/image_new_new
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -823,26 +806,26 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Project Data/Game/Images_new/image_new_new
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Project\Unity\xiaoxiaolefantian_client
+  m_LastProjectPath: D:\Project\Unity\xiaoxiaolefantian_client_git
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 287}
+    scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 56760
+    - m_Data: 56644
     m_LastClickedID:
-      m_Data: 56760
+      m_Data: 56644
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 56634
-    - m_Data: 56636
-    - m_Data: 56638
-    - m_Data: 56640
-    - m_Data: 56642
     - m_Data: 56644
+    - m_Data: 56646
+    - m_Data: 56648
+    - m_Data: 56650
+    - m_Data: 56652
+    - m_Data: 56654
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -878,12 +861,12 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 56634
-    - m_Data: 56636
-    - m_Data: 56638
-    - m_Data: 56640
-    - m_Data: 56642
     - m_Data: 56644
+    - m_Data: 56646
+    - m_Data: 56648
+    - m_Data: 56650
+    - m_Data: 56652
+    - m_Data: 56654
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,7 +897,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: []
     m_LastClickedEntityId:
       m_Data: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 53602
     - m_Data: 55138
