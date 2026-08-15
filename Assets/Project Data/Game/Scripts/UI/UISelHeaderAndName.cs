@@ -97,6 +97,12 @@ namespace Watermelon
             
             headIcon.OnSelect = OnHeadIconClicked;
             headIcon.SetData(data, SelHeaderName == data);
+            
+            // 在创建角色界面放大头像1.5倍
+            if (headIcon.ImageHead != null)
+            {
+                headIcon.ImageHead.transform.localScale = Vector3.one * 1.5f;
+            }
 
             return item;
         }

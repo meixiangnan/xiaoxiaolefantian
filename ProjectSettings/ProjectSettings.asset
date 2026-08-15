@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: XXLFT
-  productName: "\u6D88\u6D88\u4E50\u7FFB\u5929"
+  companyName: XXMHD
+  productName: "\u6D88\u6D88\u68A6\u5E7B\u5C9B"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -164,7 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.xxlft.Tile
+    Android: com.xxmhd.tile
     Standalone: com.KJL.TileMatch
   buildNumber:
     Standalone: 0

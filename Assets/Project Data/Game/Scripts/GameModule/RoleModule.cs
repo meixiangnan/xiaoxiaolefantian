@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Watermelon;
@@ -42,11 +43,17 @@ public class RoleModule : GameModuleBase
     private bool isLogin = false;
     private bool isNotifyLeft = false;
     private bool isNotifyTimeOver = false;
-    private DateTime LoginTick;
+    private bool isAntiAddictionRequesting = false;
+    private bool isAntiAddictionMonitoringRequired = false;
+    private bool hasAntiAddictionStatus = false;
+    private float antiAddictionSyncRealtime;
+    private float nextAntiAddictionSyncRealtime;
+    private int antiAddictionSessionVersion;
     private bool isNeedShowAdultNotify = false;
     private bool isShowAdultNotify = false;
 
     private const double AntiAddictionLeftNotifySeconds = 15 * 60;
+    private const float AntiAddictionSyncInterval = 30f;
 
 
     public int PassLevelShow
@@ -61,13 +68,29 @@ public class RoleModule : GameModuleBase
     public void RecordLogin()
     {
         isLogin = true;
+        isNotifyLeft = false;
+        isNotifyTimeOver = false;
+        isAntiAddictionRequesting = false;
+        isAntiAddictionMonitoringRequired = true;
+        hasAntiAddictionStatus = false;
+        antiAddictionSessionVersion++;
         CanPlaySeconds = serverLeftSeconds;
-        LoginTick = DateTime.Now;
+        antiAddictionSyncRealtime = Time.realtimeSinceStartup;
+        nextAntiAddictionSyncRealtime = 0f;
     }
 
     public void Logout()
     {
         isLogin = false;
+        isAntiAddictionRequesting = false;
+        isAntiAddictionMonitoringRequired = false;
+        hasAntiAddictionStatus = false;
+        antiAddictionSessionVersion++;
+    }
+
+    public void RequestAntiAddictionSync()
+    {
+        nextAntiAddictionSyncRealtime = 0f;
     }
 
     public void OnPassLevel(int completedLevelNumber)
@@ -201,6 +224,7 @@ public class RoleModule : GameModuleBase
     {
         userData.UserId = resp.UserId;
         userData.token = resp.Token;
+        userData.Account = resp.Account;
         
         PassLevel         = resp.PassLevel;
         IsFinishTutorial  = resp.IsFinishTutorial;
@@ -424,33 +448,86 @@ public class RoleModule : GameModuleBase
 
     public override void TickModule()
     {
-        if (!isLogin)
+        if (!isLogin || !isAntiAddictionMonitoringRequired)
         {
             return;
         }
-        AdultLoginCheck();
+
+        float realtime = Time.realtimeSinceStartup;
+        if (!isAntiAddictionRequesting && realtime >= nextAntiAddictionSyncRealtime)
+        {
+            isAntiAddictionRequesting = true;
+            nextAntiAddictionSyncRealtime = realtime + AntiAddictionSyncInterval;
+            GameGlobal.Instance.StartCoroutine(SyncAntiAddictionStatus(antiAddictionSessionVersion));
+        }
+
+        if (hasAntiAddictionStatus)
+        {
+            EvaluateAntiAddictionStatus(GetAntiAddictionLeftSeconds());
+        }
     }
 
-    private void AdultLoginCheck()
+    private IEnumerator SyncAntiAddictionStatus(int sessionVersion)
     {
-        if (IsAdult())
+        var request = new MsgAntiAddictionStatusReq
         {
+            Account = userData.Account,
+            UserId = userData.UserId,
+            Token = userData.token
+        };
+        var context = new RequestContext
+        {
+            method = ServerMethod.AntiAddictionStatus,
+            Req = request
+        };
+
+        yield return ServerHelper.RequestServer<MsgAntiAddictionStatusRsp>(context);
+
+        if (sessionVersion != antiAddictionSessionVersion)
+        {
+            yield break;
+        }
+
+        isAntiAddictionRequesting = false;
+        if (!isLogin || context.ErrCode != (int)GameErrorCode.Succ)
+        {
+            yield break;
+        }
+
+        var response = context.Resp as MsgAntiAddictionStatusRsp;
+        if (response == null)
+        {
+            yield break;
+        }
+
+        Age = response.Age;
+        isAntiAddictionMonitoringRequired = response.IsMinor;
+        CanPlaySeconds = response.CanPlay ? Mathf.Max(0, response.LeftSeconds) : 0;
+        serverLeftSeconds = CanPlaySeconds;
+        antiAddictionSyncRealtime = Time.realtimeSinceStartup;
+        hasAntiAddictionStatus = response.IsMinor;
+
+        if (response.IsMinor)
+        {
+            EvaluateAntiAddictionStatus(CanPlaySeconds);
+        }
+    }
+
+    private void EvaluateAntiAddictionStatus(double loginLeft)
+    {
+        if (!isNotifyTimeOver && loginLeft <= 0)
+        {
+            isNotifyTimeOver = true;
+            isNotifyLeft = true;
+            GameController.isGamePause = true;
+            NotifyDialog.NotifyClose(DialogState.QuitGame, "防沉迷提示", "        您已被强制下线。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》与《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，您可在周五、周六、周日和法定节假日的20:00-21:00登入游戏。");
             return;
         }
 
-        double loginLeft = GetAntiAddictionLeftSeconds();
-        
-        if (!isNotifyLeft && loginLeft > 0 && loginLeft <= AntiAddictionLeftNotifySeconds)
+        if (!isNotifyLeft && loginLeft <= AntiAddictionLeftNotifySeconds)
         {
-            NotifyDialog.NotifyClose(DialogState.NoticeConfirmOnly, "防沉迷提示", "        您当前登录的是未成年人帐号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》与《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，您可在周五、周六、周日和法定节假日的20:00-21:00登入游戏。\n        您当日剩余游戏时长已不足15分钟，请注意您的游戏时长。");
             isNotifyLeft = true;
-        }
-        
-        if (!isNotifyTimeOver && loginLeft <= 0)
-        {
-            GameController.isGamePause = true;
-            NotifyDialog.NotifyClose(DialogState.QuitGame, "防沉迷提示", "        您已被强制下线。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》与《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，您可在周五、周六、周日和法定节假日的20:00-21:00登入游戏。");
-            isNotifyTimeOver = true;
+            NotifyDialog.NotifyClose(DialogState.NoticeConfirmOnly, "防沉迷提示", "        您当前登录的是未成年人帐号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》与《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，您可在周五、周六、周日和法定节假日的20:00-21:00登入游戏。\n        您当日剩余游戏时长已不足15分钟，请注意您的游戏时长。");
         }
     }
 
@@ -461,8 +538,7 @@ public class RoleModule : GameModuleBase
             return 0;
         }
 
-        TimeSpan passTime = DateTime.Now - LoginTick;
-        return CanPlaySeconds - passTime.TotalSeconds;
+        return CanPlaySeconds - (Time.realtimeSinceStartup - antiAddictionSyncRealtime);
     }
 
     public bool IsMinorPlayableTimeNow()

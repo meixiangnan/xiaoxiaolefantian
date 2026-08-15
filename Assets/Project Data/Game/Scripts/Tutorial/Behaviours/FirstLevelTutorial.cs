@@ -60,7 +60,7 @@ namespace Watermelon
 
         [Header("Step IX")]
         readonly string ninthStepTitle = "很棒";
-        readonly string ninthStepMessage = "继续战斗吧。";
+        readonly string ninthStepMessage = "继续探索吧。";
         
         [Header("Step X")]
         [SerializeField] LevelData KeyLevelData;
@@ -70,7 +70,7 @@ namespace Watermelon
         
 
         [Header("Finish")]
-        readonly string finishTitle = "你是一名合格的勇者！";
+        readonly string finishTitle = "你是一名合格的探险家！";
 
         private bool isActive;
         public override bool IsActive => isActive;

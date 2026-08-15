@@ -416,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 39, y: -66}
+  m_AnchoredPosition: {x: 104, y: -66}
   m_SizeDelta: {x: 153.0996, y: 151.2913}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1351593438401689275
@@ -1062,7 +1062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -33.74, y: -69.5}
+  m_AnchoredPosition: {x: -104, y: -141.3}
   m_SizeDelta: {x: 242, y: 84}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &1670426262710764397
@@ -1519,6 +1519,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 975333755610902403}
     m_Modifications:
+    - target: {fileID: 418514912661171226, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1131056215602252909, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1599,9 +1603,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_text
+      value: "1.00\u5143"
+      objectReference: {fileID: 0}
     - target: {fileID: 5860769039274786767, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_Name
       value: UIDiamond1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6479743007687531630, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1765,6 +1777,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 975333755610902403}
     m_Modifications:
+    - target: {fileID: 418514912661171226, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250.2
+      objectReference: {fileID: 0}
     - target: {fileID: 943957879057619783, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_SizeDelta.x
       value: 162
@@ -1863,7 +1879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_text
-      value: 120.00
+      value: "120.00\u5143"
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1885,6 +1901,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 552da5cc4cb56a04ab2142c085194ed4, type: 3}
+    - target: {fileID: 6479743007687531630, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1914,6 +1934,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 975333755610902403}
     m_Modifications:
+    - target: {fileID: 418514912661171226, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250.2
+      objectReference: {fileID: 0}
     - target: {fileID: 943957879057619783, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_SizeDelta.x
       value: 162
@@ -2012,7 +2036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_text
-      value: 60.00
+      value: "60.00\u5143"
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2038,6 +2062,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: eaae923be5db1a042a4f4e5f43a04aab, type: 3}
+    - target: {fileID: 6479743007687531630, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2200,6 +2228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 975333755610902403}
     m_Modifications:
+    - target: {fileID: 418514912661171226, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250.2
+      objectReference: {fileID: 0}
     - target: {fileID: 943957879057619783, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_SizeDelta.x
       value: 162
@@ -2298,7 +2330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: m_text
-      value: 10.00
+      value: "10.00\u5143"
       objectReference: {fileID: 0}
     - target: {fileID: 2731076730243062802, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2320,6 +2352,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 552da5cc4cb56a04ab181244af49bee2, type: 3}
+    - target: {fileID: 6479743007687531630, guid: b6591caabc9ba3245bbb47a13b490cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

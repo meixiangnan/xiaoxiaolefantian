@@ -27,3 +27,9 @@ node_modules/
 Library/
 Temp/
 Logs/
+
+# 编辑器个人设置
+UserSettings/
+
+# 备份文件
+*.backup*

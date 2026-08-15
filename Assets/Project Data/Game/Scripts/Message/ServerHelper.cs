@@ -35,6 +35,7 @@ namespace Watermelon.Message
         CreateRole,
         LoadLeaderBoard,
         UploadPassLevel,
+        AntiAddictionStatus,
         ClearAllData,
     }
     
@@ -53,10 +54,11 @@ namespace Watermelon.Message
     {
         //public const string ServerURL = "https://bzhero.online";
         //public const string ServerURL = "https://knoll-underdone-constant.ngrok-free.dev";
-        //public const string ServerURL = "http://192.168.0.110:33055";
+        //public const string ServerURL = "http://127.0.0.1:8443";
         //public const string ServerURL = "https://82.157.147.7";
         public const string ServerURL = "https://bzhero.online:8443";
         //public const string ServerURL = "https://82.157.147.7";
+        //public const string ServerURL = "http://127.0.0.1:18443";
         
         
         //根据枚举返回对应的URL
@@ -76,6 +78,8 @@ namespace Watermelon.Message
                     return ServerURL + "/game/load_leaderboard";
                 case ServerMethod.UploadPassLevel:
                     return ServerURL + "/game/upload_pass_level";
+                case ServerMethod.AntiAddictionStatus:
+                    return ServerURL + "/user/anti_addiction_status";
                 case ServerMethod.ClearAllData:
                     return ServerURL + "/admin/clear_all_data";
             }

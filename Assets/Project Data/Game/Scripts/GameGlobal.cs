@@ -14,9 +14,12 @@ namespace Watermelon
         
         GameModuleManager gameModuleManager = new GameModuleManager();
         
+        private bool modulesInitialized;
+
         public void Init()
         {
             gameModuleManager.Init();
+            modulesInitialized = true;
         }
 
         public T GetModule<T>() where T : GameModuleBase
@@ -27,6 +30,14 @@ namespace Watermelon
         public void Update()
         {
             gameModuleManager.TickModule();
+        }
+
+        private void OnApplicationFocus(bool hasFocus)
+        {
+            if (hasFocus && modulesInitialized)
+            {
+                gameModuleManager.GetModule<RoleModule>().RequestAntiAddictionSync();
+            }
         }
 
         private bool isUpload = false;

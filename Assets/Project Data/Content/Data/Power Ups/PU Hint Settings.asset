@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: PU Hint Settings
   m_EditorClassIdentifier: 
   type: 2
-  icon: {fileID: 21300000, guid: 0df936c4e6e380c4d98c37d6758a911c, type: 3}
-  behaviorPrefab: {fileID: 1085015711430956740, guid: 1fd2d5235b313f241881511df2c10e65,
-    type: 3}
+  icon: {fileID: 21300000, guid: 56fce28af8d4c124094b8a1485acaf7f, type: 3}
+  behaviorPrefab: {fileID: 1085015711430956740, guid: 1fd2d5235b313f241881511df2c10e65, type: 3}
   defaultAmount: 3
   description: "\u7ACB\u5373\u6D88\u9664"
   requiredLevel: 0

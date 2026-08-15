@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: PU Shuffle Settings
   m_EditorClassIdentifier: 
   type: 1
-  icon: {fileID: 21300000, guid: 56fce28af8d4c124094b8a1485acaf7f, type: 3}
-  behaviorPrefab: {fileID: 7790535292472644827, guid: 8e778cfa513e3c1479c851dfaf32ea2c,
-    type: 3}
+  icon: {fileID: 21300000, guid: 808506e524af1554ca65ed244a778bed, type: 3}
+  behaviorPrefab: {fileID: 7790535292472644827, guid: 8e778cfa513e3c1479c851dfaf32ea2c, type: 3}
   defaultAmount: 3
   description: "\u968F\u673A\u6392\u5217\u5269\u4F59\u5143\u7D20"
   requiredLevel: 0

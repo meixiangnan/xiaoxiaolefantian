@@ -131,6 +131,8 @@ namespace Watermelon.Message
         public int UserId;
         [JsonProperty("Token")]  
         public string Token;
+        [JsonProperty("Account")]
+        public string Account;
         [JsonProperty("BirthYear")]  
         public string BirthYear;
         
@@ -172,6 +174,23 @@ namespace Watermelon.Message
     public class MsgCreateRoleRsp : MessageRsp
     {
         
+    }
+
+    public class MsgAntiAddictionStatusReq : MessageReq
+    {
+        public string Account;
+        public int UserId;
+        public string Token;
+    }
+
+    public class MsgAntiAddictionStatusRsp : MessageRsp
+    {
+        [JsonProperty("IsMinor")] public bool IsMinor;
+        [JsonProperty("CanPlay")] public bool CanPlay;
+        [JsonProperty("Age")] public int Age;
+        [JsonProperty("LeftSeconds")] public int LeftSeconds;
+        [JsonProperty("ServerUnixTime")] public long ServerUnixTime;
+        [JsonProperty("ServerTime")] public string ServerTime;
     }
     
 

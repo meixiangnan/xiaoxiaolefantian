@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: PU Undo Settings
   m_EditorClassIdentifier: 
   type: 0
-  icon: {fileID: 21300000, guid: 808506e524af1554ca65ed244a778bed, type: 3}
-  behaviorPrefab: {fileID: 1263534553345675991, guid: ce69ece84a382034caa6bb0c26aaea5f,
-    type: 3}
+  icon: {fileID: 21300000, guid: 0df936c4e6e380c4d98c37d6758a911c, type: 3}
+  behaviorPrefab: {fileID: 1263534553345675991, guid: ce69ece84a382034caa6bb0c26aaea5f, type: 3}
   defaultAmount: 3
   description: "\u64A4\u56DE\u6700\u540E\u4E00\u6B21\u79FB\u52A8"
   requiredLevel: 0
