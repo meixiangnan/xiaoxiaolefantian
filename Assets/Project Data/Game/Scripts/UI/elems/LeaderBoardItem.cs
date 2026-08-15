@@ -25,7 +25,7 @@ public class LeaderBoardItem : MonoBehaviour
         nickName.text = data.Name;
         int score = 0;
         int.TryParse(data.Score, out score);
-        score = Mathf.Clamp(score, 0, 300);
+        score = Mathf.Clamp(score, 0, GameLevelConfig.TotalLevelCount);
         Score.text = score + "关";
         Rank.text = data.Rank.ToString();
 
