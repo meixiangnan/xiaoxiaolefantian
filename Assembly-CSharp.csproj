@@ -216,6 +216,7 @@
     <Compile Include="Assets\Project Data\Watermelon Core\Modules\Currencies Module\Scripts\CurrenciesHelper.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Modules\Tween\TweenExtension.cs" />
+    <Compile Include="Assets\Project Data\Game\Scripts\UI\UICoverImage.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Modules\Define Manager\DefineAttribute.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Modules\Tween\DoTween\DoRotateTween.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Scripts\Utils\ToggleTypes.cs" />

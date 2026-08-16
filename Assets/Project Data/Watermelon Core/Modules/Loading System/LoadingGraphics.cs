@@ -15,7 +15,7 @@ namespace Watermelon
         {
             DontDestroyOnLoad(gameObject);
 
-            canvasScaler.matchWidthOrHeight = 1;
+            canvasScaler.matchWidthOrHeight = 0;
 
             OnLoading(0.0f, "");
         }

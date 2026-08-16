@@ -170,9 +170,9 @@ RectTransform:
   - {fileID: 8839329978502637132}
   m_Father: {fileID: 8618389907537505828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 601}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -354.09}
   m_SizeDelta: {x: 590, y: 109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3365046511240079789
@@ -758,6 +758,7 @@ GameObject:
   - component: {fileID: 819553338773509361}
   - component: {fileID: 4634689276929385492}
   - component: {fileID: 937475440781896383}
+  - component: {fileID: 3767346098324508653}
   m_Layer: 5
   m_Name: bg
   m_TagString: Untagged
@@ -822,6 +823,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3767346098324508653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621532779896012550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &3849012987842526052
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 104.16, y: -31.3}
+  m_AnchoredPosition: {x: 104.16, y: -31.300049}
   m_SizeDelta: {x: 99.4865, y: 102.1045}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &7234182918599594042
@@ -1034,7 +1047,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.3
+  m_fontSize: 32.25
   m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1512,6 +1525,7 @@ GameObject:
   - component: {fileID: 8618389907537505828}
   - component: {fileID: 1946931388554102634}
   - component: {fileID: 8841844277531377530}
+  - component: {fileID: 3465416409249361204}
   m_Layer: 5
   m_Name: heroPanel
   m_TagString: Untagged
@@ -1538,10 +1552,10 @@ RectTransform:
   - {fileID: 152387821270675095}
   m_Father: {fileID: 6367115691270707841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1311.4287, y: 2331.4287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1946931388554102634
 CanvasRenderer:
@@ -1581,6 +1595,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3465416409249361204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8520938700267043825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &8792173502662490392
 GameObject:
   m_ObjectHideFlags: 0

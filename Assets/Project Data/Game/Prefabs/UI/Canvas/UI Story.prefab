@@ -116,10 +116,10 @@ RectTransform:
   - {fileID: 4308168882727508929}
   m_Father: {fileID: 3896966791538023619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 1920}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &806369969578542047
 CanvasRenderer:
@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 7126147583343578339}
   - component: {fileID: 111005731573258601}
   - component: {fileID: 2707089121691637683}
+  - component: {fileID: 3057196460737087992}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -366,6 +367,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3057196460737087992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222011726827030336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &3677419469459674134
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +618,7 @@ GameObject:
   - component: {fileID: 3154449038479304408}
   - component: {fileID: 3017591481699613938}
   - component: {fileID: 7709436776597128967}
+  - component: {fileID: 1278450778706103388}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -669,6 +683,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1278450778706103388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270069232872865663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &4300270544513872291
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +888,7 @@ GameObject:
   - component: {fileID: 6465681728657908148}
   - component: {fileID: 8246885917467282515}
   - component: {fileID: 4738774357629543782}
+  - component: {fileID: 4959293078906912173}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -926,6 +953,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4959293078906912173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662147248523592514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &6769333983054516942
 GameObject:
   m_ObjectHideFlags: 0

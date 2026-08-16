@@ -962,6 +962,7 @@ GameObject:
   - component: {fileID: 8497156567427095432}
   - component: {fileID: 6097397465091901716}
   - component: {fileID: 4890115519282769679}
+  - component: {fileID: 8021545412622648135}
   m_Layer: 5
   m_Name: bgColor
   m_TagString: Untagged
@@ -983,10 +984,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4403509524289665547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6097397465091901716
 CanvasRenderer:
@@ -1018,7 +1019,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 2c869246d0a61c34e80a6827c8e4eb01, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
   m_FillAmount: 1
@@ -1026,6 +1027,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8021545412622648135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515038149558130034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1 &5908646950771231897
 GameObject:
   m_ObjectHideFlags: 0

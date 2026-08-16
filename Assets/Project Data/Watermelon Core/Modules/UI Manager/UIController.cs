@@ -45,7 +45,7 @@ namespace Watermelon
             isTablet = UIUtils.IsWideScreen(Camera.main);
             mainCamera = Camera.main;
 
-            CanvasScaler.matchWidthOrHeight = 1;
+            CanvasScaler.matchWidthOrHeight = 0;
 
             pages = new List<UIPage>();
             pagesLink = new Dictionary<Type, UIPage>();

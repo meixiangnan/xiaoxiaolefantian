@@ -28,7 +28,7 @@ namespace Watermelon
             {
                 scaler.uiScaleMode = UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;
                 scaler.referenceResolution = new Vector2(1080, 1920);
-                scaler.matchWidthOrHeight = 1f;
+                scaler.matchWidthOrHeight = 0f;
             }
 
             canvasGameObject.GetComponent<NotifyDialog>().Initialise();

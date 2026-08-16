@@ -16,7 +16,7 @@ namespace Watermelon
                 CanvasScaler canvasScaler = uiController.gameObject.GetComponent<CanvasScaler>();
                 if (canvasScaler != null)
                 {
-                    canvasScaler.matchWidthOrHeight = 1;
+                    canvasScaler.matchWidthOrHeight = 0;
                 }
             }
         }

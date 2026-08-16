@@ -3080,6 +3080,38 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u9759\u8C27\u5C71\u6797"
       objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870975661211436559, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612502938201706357, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: chapterSwitches.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612502938201706357, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: 'chapterSwitches.Array.data[5]'
+      value: 
+      objectReference: {fileID: 5585679962478390697}
     - target: {fileID: 3917219779231630683, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
       propertyPath: m_text
       value: "\u8FBD\u8FDC\u5929\u7A7A"
@@ -3172,6 +3204,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7073448503994947959, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1497.3102
+      objectReference: {fileID: 0}
     - target: {fileID: 8035435450043743168, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
       propertyPath: m_text
       value: "\u5C0F\u6CB3\u5954\u6D41"
@@ -3179,7 +3215,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6822585976732969282, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4272881343290549868}
   m_SourcePrefab: {fileID: 100100000, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
 --- !u!114 &1690206851223064005 stripped
 MonoBehaviour:
@@ -3192,11 +3231,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3041f54ab46b87246b0e302e4eccd01b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5585679962478390697 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7553293252524175129, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+  m_PrefabInstance: {fileID: 2690586752321864368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76710601395447ab9e762eaeefa319e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8435462859341129993 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5784357648128486329, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
   m_PrefabInstance: {fileID: 2690586752321864368}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8932981846224841714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6822585976732969282, guid: c7fc83ce45fff7f4681ab444c290ff7d, type: 3}
+  m_PrefabInstance: {fileID: 2690586752321864368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4272881343290549868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932981846224841714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e9f2a1b8d4e6f9a0c3d5e7f1a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.UICoverImage
 --- !u!1001 &3132347194848450346
 PrefabInstance:
   m_ObjectHideFlags: 0
